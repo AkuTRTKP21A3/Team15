@@ -1,0 +1,29 @@
+html{
+    height: 100%;
+}
+body{
+    min-height: 100vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+@media (min-width: 576px){
+    .fixed{
+        flex: 0 0 200px;
+        min-height: 100vh;
+    }
+    .col .fluid{
+        min-height: 100vh;
+    }
+}
+.flex-grow{
+    flex:1;
+}
+div{
+    background-color: black;
+}
+nav{
+    background-color: blanchedalmond;
+}
+footer{
+    background-color: blanchedalmond;
+}
+
