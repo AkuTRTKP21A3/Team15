@@ -3,7 +3,7 @@ html{
 }
 body{
     margin: 0;
-	padding: 10px;
+	padding: 20px;
 	display: flex;
     flex: 1 1 auto;
 	flex-direction: column;
@@ -11,7 +11,7 @@ body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     background-color: black;
 }
-@media (min-width: 576px){
+@media (min-width: 768px){
     .fixed{
         flex: 0 0 100px;
         min-height: 100vh;
@@ -19,7 +19,7 @@ body{
     }
     .col .fluid{
         min-height: 100vh;
-        background-color: rgb(212, 32, 32);
+        background-color: rgb(2, 1, 1);
         display: flex;
         flex-direction: row;
         flex: 1;
@@ -40,9 +40,10 @@ nav{
 footer{
     background-color: rgb(212, 32, 32);
     text-align: center;
-    font-size: larger;
+    font-size:x-large;
     height: 100%;
   width: 100%;
+  color:black;
 }
 .nav-link{
     font-size:x-large;
@@ -51,6 +52,7 @@ footer{
 .info{
     position: inherit;
     vertical-align: bottom;
+    color: black;
 }
 h2{
     font-weight: bold;
@@ -59,7 +61,7 @@ h2{
     height: 100%;
   width: 100%;
   text-align: center;
-  color: white;
+  background-color: black;
   padding:35px;
 
 }
@@ -68,4 +70,15 @@ h1{
 }
 h6{
     font-size: medium;
+}
+.img2{
+    padding: 10px;
+  width: 80px;
+}
+.col-md2{
+    color: black;
+}
+.cp{
+    margin-bottom: 50%;
+    color:black;
 }
