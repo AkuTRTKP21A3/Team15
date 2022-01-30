@@ -7,19 +7,16 @@ body{
 	display: flex;
     flex: 1 1 auto;
 	flex-direction: column;
-    min-height: 200vh;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     background-color: black;
 }
 @media (min-width: 768px){
-    .fixed{
-        flex: 0 0 100px;
-        min-height: 100vh;
+    .sidebars{
+        flex: 0 0 100px;        
         background-color: rgb(212, 32, 32);
     }
     .col .fluid{
-        min-height: 100vh;
-        background-color: rgb(2, 1, 1);
+        
         display: flex;
         flex-direction: row;
         flex: 1;
@@ -30,8 +27,8 @@ body{
 .flex-grow{
     flex:1;
     background-color: rgb(255, 255, 255);
-    padding: 50px;
-    min-height: 200vh;
+    padding: 30px;
+    
 }
 
 nav{
@@ -44,16 +41,14 @@ footer{
     height: 100%;
   width: 100%;
   color:black;
+  font-weight: bold;
+  padding:10px;
 }
 .nav-link{
     font-size:x-large;
     color: black;
 }
-.info{
-    position: inherit;
-    vertical-align: bottom;
-    color: black;
-}
+
 h2{
     font-weight: bold;
 }
@@ -75,10 +70,7 @@ h6{
     padding: 10px;
   width: 80px;
 }
-.col-md2{
+.col-md2, .fixed{
     color: black;
-}
-.cp{
-    margin-bottom: 50%;
-    color:black;
+    background-color: rgb(212, 32, 32);
 }
