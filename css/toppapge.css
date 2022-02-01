@@ -10,10 +10,11 @@ body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     background-color: black;
 }
-@media (min-width: 768px){
+@media (min-width: 800px){
     .sidebars{
         flex: 0 0 100px;        
         background-color: rgb(212, 32, 32);
+        
     }
     .col .fluid{
         
@@ -70,7 +71,7 @@ h6{
     padding: 10px;
   width: 80px;
 }
-.col-md2, .fixed{
+.col-md2, .sidebars{
     color: black;
     background-color: rgb(212, 32, 32);
 }
